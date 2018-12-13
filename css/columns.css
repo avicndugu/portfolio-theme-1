@@ -1,0 +1,48 @@
+.section-holder{
+	display:block;
+    overflow:auto;
+}
+.row {
+    padding-bottom:20px;
+    margin:0;
+}
+
+.row:after {
+    clear: both;
+}
+
+.column-2 { 
+    width:50%;
+    float:left;
+ }
+
+.column-holder {
+	max-width: 90%; 
+    display: block;
+    margin:0 auto;
+    /*margin-left: 5%;
+    margin-right: 5%;*/
+    /*min-height: 100px;*/
+    /*text-align: left;*/
+}
+
+.column-3 { 
+    width:33.333333333333333333333333333333333333%;
+    float:left;
+ }
+
+@media only screen and (max-width: 800px) {
+	.column-2 {
+		width:100%;
+	}
+	.column-3 { 
+    width:100%;
+ }
+
+}
+
+
+/*Aligning header center*/
+.section-header {
+	text-align:center;
+}
